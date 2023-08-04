@@ -1,6 +1,6 @@
 # flutter_udemy
 
-A new Flutter project.
+Follow up on Academind flutter course by Maximilian Schwarzmüller
 
 ## Getting Started
 
