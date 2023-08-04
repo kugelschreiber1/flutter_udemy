@@ -1,0 +1,132 @@
+Functions in Dart:
+We import libraries to use the code in them using the 'import' keyword.
+Functions  are the building blocks of readable, maintainable, and reusable code.
+A function is a set of statements to perform a specific task.
+The 'runApp()' function is a compulsory starting point of all Flutter apps.
+It takes a widget and makes it the root of the widget tree.
+It is called oly once in the 'main' function.
+The 'main' function is the entry point of the Flutter app.
+The 'pubspec.yaml' file manages dependencies in Flutter.
+The 'runApp' tells flutter what to display on the screen.
+
+Flutter & Dart Basics:
+Functions can take input values called parameters or arguments.
+Dart is an OOP language and everything in Dart is an object.
+These widgets are like objects and are building blocks of Flutter apps.
+The widgets can be combined and nested tgo form a widget tree.
+The root widget of the widget tree is usually the 'MaterialApp' widget.
+Widgets have properties and methods.
+We can also build custom widgets in Flutter.
+They can either extend the 'StatelessWidget' or 'StatefulWidget' class.
+Functions have either positional or named arguments.
+Positional arguments are required while named arguments are optional.
+Named arguments can be made compulsory using the 'required' keyword.
+Positional arguments can be made optional by enclosing them in square brackets.
+They should however be given a default value.
+The order of positional arguments is also important.
+Named arguments are specified using curly braces in the declaration.
+
+Widgets in Flutter:
+Different widgets have different properties and methods
+They execute different tasks and have different purposes.
+The core widgets are the 'StatelessWidget' and 'StatefulWidget' classes.
+The 'StatelessWidget' class is used for widgets that do not change.
+The 'StatefulWidget' class is used for widgets with dynamic data.
+Some widgets are used for layout while others are used for styling.
+The 'Scaffold' widget is used to create a base page design.
+The 'AppBar' widget is used to create a top app bar.
+The 'Text' widget is used to display text on the screen.
+The 'Column' widget is used to display widgets in a vertical manner.
+The 'Row' widget is used to display widgets in a horizontal manner.
+The 'Container' widget is used for styling and creating layouts.
+The 'Image' widget is used to display images on the screen.
+The 'Icon' widget is used to display icons on the screen.
+The 'ListView' widget is used to display a list of widgets.
+The 'Card' widget is used to create cards on the screen.
+The 'Stack' widget is used to stack widgets on top of each other.
+The 'SafeArea' widget is used to create a safe area on the screen.
+The 'Center' widget is used to center widgets on the screen.
+
+Flutter Layouts & Styling:
+The following widgets are used for layouts in Flutter:
+The 'Container' widget is used for styling and creating layouts.
+The 'Row' widget is used to display widgets in a horizontal manner.
+The 'Column' widget is used to display widgets in a vertical manner.
+The 'ListView' widget is used to display a list of widgets.
+The 'Stack' widget is used to stack widgets on top of each other.
+The 'SafeArea' widget is used to create a safe area on the screen.
+The 'Center' widget is used to center widgets on the screen.
+The 'Expanded' widget is used to expand widgets to fill the available space.
+The 'Flexible' widget is used to make widgets flexible.
+The 'Spacer' widget is used to create space between widgets.
+The 'Wrap' widget is used to wrap widgets to the next line if they overflow.
+The 'GridView' widget is used to display widgets in a grid format.
+The 'SingleChildScrollView' widget is used to make widgets scrollable.
+The 'Positioned' widget is used to position widgets in a stack.
+The 'Align' widget is used to align widgets in a stack.
+The 'SizeBox' widget is used to create space between widgets.
+The 'Divider' widget is used to create a horizontal line.
+The 'BoxDecoration' widget is used to decorate the box of a widget.
+The 'BorderRadius' widget is used to create rounded corners.
+The 'BoxShadow' widget is used to create shadows for widgets.
+The 'LinearGradient' widget is used to create linear gradients.
+The 'RadialGradient' widget is used to create radial gradients.
+
+Flutter Data Types:
+Dart is a strongly typed language.
+It has the following data types:
+Numbers: int, double
+Strings: String
+Booleans: bool
+Lists: List
+Maps: Map
+Runes: Runes
+Symbols: Symbol
+The 'var' keyword is used to declare variables whose data type is not known.
+The 'final' keyword is used to declare variables whose value cannot change.
+The 'const' keyword is used to declare variables whose value is constant.
+The 'final' and 'const' keywords are used to declare constants.
+The 'late' keyword is used to declare variables whose value is known at run time.
+Constants are declared at compile time and not run time.
+The 'final' keyword is used to declare variables whose value is known at run time.
+Variables with 'final' keyword cannot be reassigned.
+Widgets are also data types in Flutter.
+?+
+Values can also have multiple types in Dart.
+The 'dynamic' keyword is used to declare variables whose data type can change.
+The 'const' keyword improves performance by making variables immutable.
+
+Flutter Operators:
+Operators are used to perform operations on variables and values.
+The following are the types of operators in Dart:
+Arithmetic operators: +, -, *, /, %, ++, --
+Equality and relational operators: ==, !=, >, <, >=, <=
+Type test operators: as, is, is!
+Assignment operators: =, +=, -=, *=, /=, %=, ??=
+Logical operators: &&, ||, !
+Bitwise and shift operators: &, |, ^, ~, <<, >>
+The '??' operator is used to assign a default value to a variable.
+The '?' operator makes a variable nullable.
+The '!' operator is used to make a variable non-nullable.
+
+Generic Types & Gradient Backgrounds:
+The 'List' data type is used to store multiple values in a single variable.
+The 'Map' data type is used to store key-value pairs in a single variable.
+The 'Set' data type is used to store unique values in a single variable.
+The 'List' data type can take different data types hence generic.
+The 'LinearGradient' widget is used to create linear gradients.
+The 'RadialGradient' widget is used to create radial gradients.
+A gradient is a transition between two or more colors.
+The gradients are used with the 'BoxDecoration' widget.
+The 'BoxDecoration' widget is used with the 'Container' widget.
+The 'BoxDecoration' widget is used to decorate the box of a widget.
+
+
+
+
+
+
+
+
+
+
