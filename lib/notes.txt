@@ -8,6 +8,7 @@ It is called oly once in the 'main' function.
 The 'main' function is the entry point of the Flutter app.
 The 'pubspec.yaml' file manages dependencies in Flutter.
 The 'runApp' tells flutter what to display on the screen.
+The 'setState()' function is used to update the state of the app.
 
 Flutter & Dart Basics:
 Functions can take input values called parameters or arguments.
@@ -91,7 +92,6 @@ Constants are declared at compile time and not run time.
 The 'final' keyword is used to declare variables whose value is known at run time.
 Variables with 'final' keyword cannot be reassigned.
 Widgets are also data types in Flutter.
-?+
 Values can also have multiple types in Dart.
 The 'dynamic' keyword is used to declare variables whose data type can change.
 The 'const' keyword improves performance by making variables immutable.
@@ -129,6 +129,7 @@ Classes are therefore blueprints for creating objects.
 Objects are data structures consisting of data properties and methods.
 We use the '.' operator to access properties and methods of an object.
 Classes have constructor functions which are used to create objects.
+A class can have multiple constructor functions.
 Constructors have the same name as the class.
 Constructors are used to initialize objects.
 Constructors can also be used to pass arguments to objects.
@@ -165,7 +166,99 @@ They can be created in different ways.
 They can also have different types and values.
 The preferred naming convention for variables is camelCase.
 
+Flutter Images & Multiple Constructors:
+Some constructors can act as convenience functions.
+Images can be added to the project in the 'assets' folder.
+The 'pubspec.yaml' file is used to add images to the project.
+The 'Image' widget is used to display images on the screen.
+The 'Image' widget has different constructors.
+The 'Image.asset' constructor is used to display images from the 'assets' folder.
+The 'Image.network' constructor is used to display images from the internet.
+The 'Image.file' constructor is used to display images from the device.
+The 'Image.memory' constructor is used to display images from memory.
+The 'Image' widget has different properties that can be used to style images.
 
+Flutter Columns & Rows:
+The 'Column' and 'Row' widgets have different properties that can be used to style them.
+The 'Column' widget is used to display widgets in a vertical manner.
+The 'mainAxisAlignment' property is used to align widgets vertically.
+The 'crossAxisAlignment' property is used to align widgets horizontally.
+The 'Row' widget is used to display widgets in a horizontal manner.
+The 'mainAxisAlignment' property is used to align widgets horizontally.
+The 'crossAxisAlignment' property is used to align widgets vertically.
+Both the 'Column' and 'Row' widgets have the 'children' property.
+The 'children' property is used to add widgets to the 'Column' and 'Row' widgets.
+The 'children' property takes a list of widgets.
+
+Flutter Container Widget:
+It can be used for both styling and layout of child widget.
+The 'Container' widget creates a container for child widget.
+The 'Container' widget has different properties that can be used to style it.
+The 'child' property is used to add a widget to the 'Container' widget.
+The 'color' property is used to add a color to the 'Container' widget.
+The 'width' property is used to set the width of the 'Container' widget.
+The 'height' property is used to set the height of the 'Container' widget.
+The 'margin' property is used to set the margin of the 'Container' widget.
+The 'padding' property is used to set the padding of the 'Container' widget.
+The 'decoration' property is used to set the decoration of the 'Container' widget.
+The 'transform' property is used to set the transform of the 'Container' widget.
+The 'alignment' property is used to set the alignment of the 'Container' widget.
+The 'constraints' property is used to set the constraints of the 'Container' widget.
+The 'foregroundDecoration' property is used to set the foreground decoration of the 'Container' widget.
+The 'clipBehavior' property is used to set the clip behavior of the 'Container' widget.
+
+Flutter Buttons:
+The main types of buttons in Flutter are:
+-ElevatedButton
+-TextButton
+-OutlinedButton
+-FloatingActionButton
+-IconButton
+DropdownButton
+The 'ElevatedButton' widget is used to create a raised button.
+The 'TextButton' widget is used to create a text button.
+The 'OutlinedButton' widget is used to create an outlined button.
+The 'FloatingActionButton' widget is used to create a floating action button.
+The 'IconButton' widget is used to create an icon button.
+The 'DropdownButton' widget is used to create a dropdown button.
+The 'onPressed' property is used to add a function to a button.
+The 'style' property is used to style a button.
+The 'icon' property is used to add an icon to a button.
+The 'label' property is used to add a label to a button.
+The 'iconSize' property is used to set the size of the icon in a button.
+The 'iconColor' property is used to set the color of the icon in a button.
+The 'elevation' property is used to set the elevation of a button.
+The 'backgroundColor' property is used to set the background color of a button.
+The 'foregroundColor' property is used to set the foreground color of a button.
+The 'shape' property is used to set the shape of a button.
+The 'borderSide' property is used to set the border side of a button.
+The 'borderRadius' property is used to set the border radius of a button.
+The 'borderColor' property is used to set the border color of a button.
+The 'borderWidth' property is used to set the border width of a button.
+The 'padding' property is used to set the padding of a button.
+The 'splashColor' property is used to set the splash color of a button.
+The 'highlightColor' property is used to set the highlight color of a button.
+The 'hoverColor' property is used to set the hover color of a button.
+The 'focusColor' property is used to set the focus color of a button.
+The 'alignment' property is used to set the alignment of a button.
+The 'dropdownColor' property is used to set the dropdown color of a button.
+The 'disabledColor' property is used to set the disabled color of a button.
+The 'disabledTextColor' property is used to set the disabled text color of a button.
+The 'autofocus' property is used to set the autofocus of a button.
+The 'clipBehavior' property is used to set the clip behavior of a button.
+The 'focusNode' property is used to set the focus node of a button.
+The 'onLongPress' property is used to set the on long press of a button.
+The 'onPress' property is used to set the action of the press of a button.
+The 'onHighlightChanged' property is used to set the on highlight changed of a button.
+The 'mouseCursor' property is used to set the mouse cursor of a button.
+The 'visualDensity' property is used to set the visual density of a button.
+The 'materialTapTargetSize' property is used to set the material tap target size of a button.
+The 'enableFeedback' property is used to set the enable feedback of a button.
+The 'tapTargetSize' property is used to set the tap target size of a button.
+The 'textStyle' property is used to set the text style of a button.
+The 'textColor' property is used to set the text color of a button.
+The 'textAlignment' property is used to set the text alignment of a button.
+The 'textDirection' property is used to set the text direction of a button.
 
 
 
