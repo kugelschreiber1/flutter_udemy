@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_udemy/constants/styled_text.dart';
+import 'constants/gradient_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,25 +29,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              Colors.deepPurple.shade700,
-              Colors.deepPurple.shade800,
-              Colors.deepPurple.shade900,
-            ],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-        ),
-        child: Center(
-          child: Text(
-            'Hello World',
-            style: GoogleFonts.poppins(
-              fontSize: 32,
-              color: Colors.white,
-            ),
+      body: GradientContainer(
+        colors: [
+          Colors.deepPurple.shade700,
+          Colors.deepPurple.shade800,
+          Colors.deepPurple.shade900,
+        ],
+        beginPosition: Alignment.topLeft,
+        endPosition: Alignment.bottomRight,
+        child: const Center(
+          child: StyledText(
+            text: "Hello World",
           ),
         ),
       ),

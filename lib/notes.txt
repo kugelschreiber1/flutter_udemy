@@ -95,6 +95,7 @@ Widgets are also data types in Flutter.
 Values can also have multiple types in Dart.
 The 'dynamic' keyword is used to declare variables whose data type can change.
 The 'const' keyword improves performance by making variables immutable.
+The 'this' keyword is used to refer to the current instance of the class.
 
 Flutter Operators:
 Operators are used to perform operations on variables and values.
@@ -120,6 +121,53 @@ A gradient is a transition between two or more colors.
 The gradients are used with the 'BoxDecoration' widget.
 The 'BoxDecoration' widget is used with the 'Container' widget.
 The 'BoxDecoration' widget is used to decorate the box of a widget.
+
+Flutter Classes:
+Widgets qre objects in Flutter.
+Objects are data structures in memory.
+Classes are therefore blueprints for creating objects.
+Objects are data structures consisting of data properties and methods.
+We use the '.' operator to access properties and methods of an object.
+Classes have constructor functions which are used to create objects.
+Constructors have the same name as the class.
+Constructors are used to initialize objects.
+Constructors can also be used to pass arguments to objects.
+Constructors can also be used to set default values for properties.
+Custom and built-in widgets are defined as classes.
+
+Building Custom Widgets:
+They should be stored in a separate file and imported when needed.
+Custom widgets extend from either the 'StatelessWidget' or 'StatefulWidget' class.
+The 'StatelessWidget' class is used for widgets that do not change.
+The 'StatefulWidget' class is used for widgets with dynamic data.
+Stateless widgets have the following properties:
+They must override the 'build' method and return a widget.
+They should have a const constructor function that calls the super constructor.
+They should return a widget in the 'build' method.
+They should have a named 'key' parameter in the constructor.
+They should have final properties.
+Stateful widgets have the following properties:
+They must override the 'createState' method and return a state.
+They should have a const constructor function that calls the super constructor.
+The 'createState' method returns a state of type 'stateful widget'.
+The state class must override the 'build' method and return a widget.
+
+Splitting Code into Multiple Files:
+Necessary to split code into multiple files for large projects.
+This increases the readability, and reusability of the code.
+The 'import' keyword is used to import code from other files.
+The 'export' keyword is used to export code to other files.
+The 'as' keyword is used to give a file an alias.
+
+Flutter Variables:
+Variables are data containers.
+They can be created in different ways.
+They can also have different types and values.
+The preferred naming convention for variables is camelCase.
+
+
+
+
 
 
 
